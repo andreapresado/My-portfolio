@@ -1,4 +1,18 @@
-p{
+.mainTitle{
+    font-size: 6rem; 
     text-align: center;
-    font-size: 6rem;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+
+    .mainDesc{
+        padding-top: 1.5rem;
+         font-size: 2.5rem;
+    }
+}
+
+img{
+    width: 20rem;
+    padding: 2rem;
 }

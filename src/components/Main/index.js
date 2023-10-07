@@ -1,14 +1,14 @@
-import img from '../../assets/img/moi.jpg'
+import img from '../../assets/img/img.jpg'
 
 const Main = () => {
 
     return (
         <>
             <main>
-                <p>Bienvenue sur mon portfolio!</p>
-                <div>
+                <h1 className='mainTitle'>Bienvenue sur mon portfolio!</h1>
+                <div className='mainDiv'>
                     <img src={img} alt="moi"></img>
-                    <p>hello people</p>
+                    <p className='mainDesc'>hello people</p>
                 </div>
             </main>
         </>
