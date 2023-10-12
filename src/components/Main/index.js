@@ -4,11 +4,15 @@ const Main = () => {
 
     return (
         <>
-            <main>
-                <h1 className='mainTitle'>Bienvenue sur mon portfolio!</h1>
-                <div className='mainDiv'>
-                    <img src={img} alt="moi"></img>
-                    <p className='mainDesc'>hello people</p>
+            <main className='main'>
+                <h1 className='main main_Title'>Bienvenue sur mon portfolio!</h1>
+                <div className='main main_box'>
+                    <div className='main main_card'>
+                        <img className='main main_cardTitle' src={img} alt="moi"></img>
+                    </div>
+                    <div className='main main_desc'>
+                        <p className='main main_card-info'>Hello, </p>
+                    </div>
                 </div>
             </main>
         </>
