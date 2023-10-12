@@ -24,7 +24,7 @@ const Main = () => {
                                 En laquelle, <br />J'ai découvert la meilleure raison de me lever le matin!!</p>
 
 
-                            <img className='main main_projetSimplon unselectable' src={SimplonProjet} alt="projet Simplon réaliser durant la formation"></img>
+                            <img className='main main_projetSimplon unselectable' src={SimplonProjet} alt="gif"></img>
 
                         </div>
                     </div >
