@@ -1,6 +1,7 @@
-@use '../reset.css';
-
+@use './components/reset';
+@use './components/mixin';
 @use './components/header.scss';
 @use './components/body.scss';
 @use './components/main.scss';
 @use './components/footer.scss';
+
