@@ -12,11 +12,7 @@ const Main = () => {
                     <h1 className='main main_Title'>Bienvenue sur mon portfolio!</h1>
                     <div className='main main_box'>
                         <div className='main main_card'>
-
                             <img className='main main_cardTitle unselectable' src={img} alt="moi"></img>
-                            <div class="stars"></div>
-                            <div class="twinkling"></div>
-                            <div class="clouds"></div>
                         </div>
 
                         <div className='main main_desc'>
@@ -24,11 +20,11 @@ const Main = () => {
                                 mon initiative de reconversion se fit suite à ma première formation avec :</p>
                             <p className='main main_card-info unselectable'><em> Simplon en collaboration avec l' Apple Foundation Program.</em></p>
                             <p className='main main_card-info unselectable'> 4 semaines intensives _ initiation au Développement mobile iOS.</p>
-                            <p className='main main_card-info unselectable'>Un travail d'équipe que j'ai trouvé épanouissant,<br />
-                                Et la meilleure raison de me lever le matin, faire ce que j'aime !!</p>
+                            <p className='main main_card-info unselectable'>A la fois un travail d'équipe  et solo,<br />  Une expérience enrichissante,<br />
+                                En laquelle, <br />J'ai découvert la meilleure raison de me lever le matin!!</p>
 
 
-                            <img className='main main_projetSimplon unselectable' src={SimplonProjet} alt="projet Simplon"></img>
+                            <img className='main main_projetSimplon unselectable' src={SimplonProjet} alt="projet Simplon réaliser durant la formation"></img>
 
                         </div>
                     </div >

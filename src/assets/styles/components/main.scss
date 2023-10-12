@@ -17,10 +17,11 @@
     }  
 
 img{
-    width: 15rem;
+    width: 12rem;
     padding: 2rem;
     border-radius: 3rem;
 }
+
 .main_box{
     display: flex;
     flex-direction: row;
@@ -31,8 +32,9 @@ img{
 }
 .main_desc{
     padding-left: 5rem;
-    align-items: start;
+    align-items: center;
     justify-content: start;
+    margin-right: 5rem;
 }
 
 .main_card {
@@ -53,14 +55,12 @@ img{
 .main_card-info {
     background:rgb(255, 196, 241) ;
     color: black;
-    width: 100%;
+    width: 80%;
     height: 100%;
     overflow: visible;
     border-radius: .7rem;
     font-size: 2rem;
     justify-content: center;
-    padding-left: 2rem;
-    padding-right: 23rem;
     text-align: justify;
     padding-bottom: 1rem;
     }
@@ -83,7 +83,8 @@ img{
   
 }
 .main_projetSimplon{
-    width: 50rem;
+    width: 60%;
+    align-items: center;
 }
  
 
